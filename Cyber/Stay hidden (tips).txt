@@ -1,0 +1,35 @@
+first thing you need is a device to use.
+You can use the following things:
+
+RDP/VPS
+This is the "basic" config if you dont wanna get busted
+
+
+LineageOS Android 
+If you want a mobile device, this + a proxy/vpn is your best bet
+
+
+Raspberry Pi or intel NUC or a PC/VM
+It all depends on what you wanna do - if you wanna refund, dont use a VM. Use something that isnt obvious. Ur best bet is an RDP/something that factory resets after every start and a non raped proxy(s5) , public wifi or cellular (less safer, if you have a s5 proxy you dont need to use any of those obviously. but if you're too broke to afford good s5 proxys, cellular and public wifi is your best bet)
+Tails USB is also something to keep in mind - its slow if configured wrong, but its very, very safe.
+
+Now for the connection part:
+
+Like ive already said, it depends on what you wanna do. If its all about security and not it being obvious, a VPS or a VPN (a good one, Mullevad) is your best bet.
+dVPNs seem to gain popularity and should be theoretically even safer (right now, i wouldnt recommend it, they are all slow asf)
+
+Now for everything you should install on your device:
+
+privacytools.io 
+
+Here you can find everything you need, get urself firefox with an good privacy profile. if you plan on refunding/multi accounting, goLogin is your best bet, because its not obvious and resets your fingerprint everytime/you can bind proxys to it.
+
+for communication use:
+pgp keys emails (use mails like protonmail and not gmail, or something that supports end2end encryption and pgp keys
+
+telegram (private chat) or even better signal/threema
+ 
+some general practices:
+
+dont use your real name for anything, dont give free info to random people, use services that provide better privacy if possible. Sanbox files you get send or cracked files from weird sources 
+
