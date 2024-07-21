@@ -1,0 +1,30 @@
+HTTP
+HTTP is a protocol for transferring data online, commonly used for web browsing on port 80.
+It works like TCP as it sends requests from clients (like web browsers) to servers and gets responses back.
+However, unlike TCP, HTTP is focused on web communication and operates on a stateless model, treating each request independently.
+The client target is to make internet requests, GET, POST, PUT, Delete.
+This means HTTP uses TCP as transport protocol.
+
+HTTP responses
+
+1xx - request recived, no answer yet
+2xx - success
+	200 - means Ok, Good
+	201 - means Created for POST requests
+3xx - We dont have the requested data anymore
+	301 - means moved permanatly
+	302 - means moved temp
+4xx - error
+	404 - not found
+	403 - no access
+5xx - server error
+	500 - most common, general error
+
+
+
+GET - Retrieve data from a server without modifying it.
+	Doesn't change server state.
+POST - Send data to a server.
+PUT - Update existing data on a server or creates it if it doesn't exist.
+DELETE- Remove data from a server.
+PATCH - Partially update existing data.

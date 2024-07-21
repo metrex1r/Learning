@@ -1,0 +1,5 @@
+In the registry we store and collect data of the OS and diffrent apps.
+Its is arranged by key and value.
+For example - Command line font
+
+We can access it by typing in the run "regedit".

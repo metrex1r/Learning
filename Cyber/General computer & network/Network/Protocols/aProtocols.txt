@@ -1,0 +1,13 @@
+protocol - a system of rules that explain the correct conduct and procedures to be followed to communicate.
+Different protocols define what we want to do and how.
+Headers -  describe the data, what IP do we send it to? who sent it?, whats the theme? etc...
+Data - what do we want to share.
+
+Protocol Binary - transmit data in binary form, meaning the data is represented using only two digits, typically 0s and 1s.
+Efficiency and speed are paramount, as binary data can be processed faster by machines compared to text-based data.
+Binary protocols are often more compact and have less overhead than text-based protocols because they don't include human-readable characters.
+The protocol looks like this:
+code   user id   date   message
+1 b     2 byte  2 byte  3 byte
+b - byte
+Protocol Textology -  analysis of text in digital form, such as natural language processing.

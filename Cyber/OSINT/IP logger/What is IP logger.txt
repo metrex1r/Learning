@@ -1,0 +1,1 @@
+IP logger is a website/app  which allow you to get ip and info of the victim.

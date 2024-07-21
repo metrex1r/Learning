@@ -1,0 +1,4 @@
+Shows us every proccess our pc runs, and data on it.
+
+open run and type "procexp"
+Its like the more elaborated version of the task manager.

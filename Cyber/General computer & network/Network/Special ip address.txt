@@ -1,0 +1,3 @@
+192.168.0.1 - router.
+127.0.0.1 - my own ip, localhost.
+255.255.255.255 - broadcast ip.

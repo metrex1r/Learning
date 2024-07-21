@@ -1,0 +1,18 @@
+Switch - מתג doesnt edit packets or has ip address.
+Works on the 2nd layer of the OSI model - know how to read MAC addresses.
+When a computer send a msg, it will only send the msg to the destenation using MAC address table.
+MAC address - switch port number. For example:
+A address - port 1.
+B address - port 2.
+C address - port 3.
+The switch reads each msgs outer layer(MAC ADDRESS).
+So the switch check which port does the specific mac is located and sends there the msg.
+
+How does the switch knows how to build this table if we could change the devices each time?
+The switch has learning process with 3 steps.
+1.Learning - look at the source address and check if it's updated, if not it's updating the table.
+2.Forwarding/floding - checks if it recognize the dest address in the table.
+	if it know then send it to the dest.
+	if it doesnt, send to everyone(like hub). then the dest will get it and respond, after the
+	dest will respond, the table will be updated and address would be recognized.
+3.Updat e - if a MAC address didnt talk in a while, delete from the table.

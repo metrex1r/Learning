@@ -1,0 +1,2 @@
+ICMP(internet control message protocol) - network protocol, ICMP making sure that everything works
+properly and reporting errors and statics. How does it work?

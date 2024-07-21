@@ -1,0 +1,6 @@
+ports can be 1 - 65,535
+some saved ranges cant be used, ports that are designated for specific protocol.
+for exapmle
+HTTP 80
+UDP 53
+etc

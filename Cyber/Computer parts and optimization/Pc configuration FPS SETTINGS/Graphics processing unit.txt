@@ -1,0 +1,7 @@
+Always update your drivers.
+
+Download and install Msi Afterburner(Fan speed, Overclock)
+Go to Settings -> Fan -> Enable user defind... -> Custom your settings.
+Set fan speed to auto in the msi afterburner.
+To set a interface, Settings -> User Interface -> Recommended MSI CYBORG AFTERBURNER SKIN WHITE.
+Set power limit as you wish so the temp limit.

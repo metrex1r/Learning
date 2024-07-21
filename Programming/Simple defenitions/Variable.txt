@@ -1,0 +1,8 @@
+Variable is a value the can usually change.
+There a few types of variables,
+
+Integer - a whole number -5 204 21674
+String - A sequence of characters, 
+Double - 
+Float - 1.2 1.5381 3431.03
+Boolean - False/True

@@ -1,0 +1,30 @@
+A router - a device in computer networking that connects multiple computer networks together and directs traffic between them.
+It operates at the third layer of the OSI model. 
+
+
+Functions of a Router
+
+Packet Forwarding - Primary function of a router is to forward data packets from one network to another. 
+When a router receives a packet, it examines the destination IP address and determines the best path to forward the packet.
+
+Routing Table - Routers maintain a routing table, which contains information about available routes and their associated network addresses. 
+This table helps the router make decisions about where to send packets based on their destination addresses.
+
+Network Address Translation (NAT) - translating private IP addresses used within a local network into a single public IP address for communication over the internet.
+This helps conserve IP addresses and adds a layer of security by hiding internal network structure.
+
+Traffic Filtering and Security - Routers can filter incoming and outgoing traffic based on various criteria such as IP addresses, ports, or protocols. 
+This capability allows routers to enforce security policies and protect networks from malicious activity.
+
+How Routers Work:
+
+Packet Switching - When a router receives a packet, it examines the destination IP address and check the routing table to determine the best path for forwarding the packet. It then encapsulates the packet in a new frame with the appropriate MAC address for the next hop and forwards it to the outgoing interface.
+
+Routing Algorithms - Routers use routing algorithms to determine the best path for forwarding packets. 
+These algorithms consider factors such as network topology, link bandwidth, and hop count to select the most efficient route.
+
+Address Resolution - Before forwarding a packet, a router may need to perform address resolution to determine the MAC address of the next hop.
+It uses protocols like ARP (Address Resolution Protocol) to map IP addresses to MAC addresses on the local network.
+
+Packet Forwarding Decisions - Routers make forwarding decisions based on the destination IP address of packets.
+They use techniques like longest prefix matching to find the most specific route in the routing table that matches the destination address.

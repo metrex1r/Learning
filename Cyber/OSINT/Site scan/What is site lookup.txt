@@ -1,0 +1,1 @@
+this used in a case of trying to get information on a site for example gmail, dns records, mx records etc

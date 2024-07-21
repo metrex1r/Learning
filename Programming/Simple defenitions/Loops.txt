@@ -1,0 +1,2 @@
+Loops are used to do the same code over and over again, 
+without the need to type it multpile times.

@@ -1,0 +1,16 @@
+Compiler
+    Translates entire source code to machine code before execution.
+    Produces an executable file.
+    Generally used for languages like C, C++, Java(Low level).
+    Faster execution as code is precompiled.
+    Compiled code  may not work on another system without recompilation.
+    More efficent
+
+Interpreter
+    Translates and executes code line by line.
+    No separate executable file is produced.
+    Often used for scripting languages like Python, JavaScript(High level).
+    Easier for debugging and interactive development.
+
+
+Compiled languages generally tend to be faster than interpreted languages

@@ -1,0 +1,23 @@
+
+
+TCP protocol propeties
+1. Dividing to Packets TCP breaks down data into manageable packets for efficient transmission.
+These packets carry the information along the network and are reassembled at the destination.
+
+2. Sequence Numbers (Seq) To ensure that packets arrive in the correct order, TCP assigns a sequence number to each packet.
+This enables the receiver to reorder packets if necessary and reconstruct the original data stream accurately.
+
+3. Acknowledgment (Ack) TCP implements acknowledgments to confirm that data has been successfully received.
+If a sender doesn't receive an acknowledgment for a packet within a specified timeframe, it assumes the packet was lost and retransmits it.
+
+4. Flow Control TCP employs flow control mechanisms to manage the rate of data transmission between sender and receiver, preventing overwhelming the recipient with data.
+This ensures efficient and fair sharing of network resources.
+
+5. TCP Handshake Before data transfer begins, TCP initiates a connection through a three-way handshake.
+This involves SYN (synchronize), SYN-ACK (synchronize acknowledgment), and ACK (acknowledgment) messages exchanged between sender and receiver to establish a reliable connection.
+
+6. Keep Alive TCP includes a mechanism for detecting idle connections and maintaining them by periodically sending small packets known as keep-alives.
+These packets prevent network devices from prematurely closing connections due to inactivity.
+
+7. Checksum To guarantee data integrity, TCP calculates a checksum for each packet.
+This checksum is a mathematical sum derived from the packet's contents, which the receiver uses to verify that the data hasn't been corrupted during transmission.

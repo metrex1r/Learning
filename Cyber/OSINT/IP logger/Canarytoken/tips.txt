@@ -1,0 +1,1 @@
+If you send an email with canrytoken link and they only open the email it will still work and get triggered!

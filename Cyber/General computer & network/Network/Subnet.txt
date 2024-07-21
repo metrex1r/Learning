@@ -1,0 +1,31 @@
+We need ip address and subnet
+ip example - 179.29.90.209, 0110011.00011101.01011010.11010001
+subnet example 255.255.255.240, 11111111.11111111.11111111.11110000
+
+we can count the 1s number which is 28 in this case
+so we have 179.29.90.209/28
+
+How to know if an IP in in a subnet
+Conver the subnet rane to binary
+1.2.100.4/31 -  00000001.00000010.01100100.00000100
+take the ip we want to compare and do the same
+1.2.100.5 - 00000001.00000010.01100100.00000101
+
+Perform an and operation
+00000001.00000010.01100100.00000100 - subnet
+00000001.00000010.01100100.00000101 - ip
+
+00000001.00000010.01100100.00000100
+מסםר זה שווה לסאבנט ולכן הכתובת נמצאת בסאבנט
+
+
+10.0.0.0/16 - the /16 
+11111111.11111111.00000000.00000000
+the 0s can change freely for the ip but the subnet restrict the first 
+8 bits, so for example 
+10.12.12.12 wont be legal address
+but 10.0.12.12 will be
+
+
+
+

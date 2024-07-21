@@ -1,0 +1,11 @@
+While(CONDITION):
+	CODE HERE
+
+as long as the condition is true, the loop will run.
+For example:
+
+num = 5
+
+while(num > 1):
+	print(num)
+	num -=1

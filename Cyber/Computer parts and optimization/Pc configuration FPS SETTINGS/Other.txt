@@ -1,0 +1,4 @@
+Go to Discord -> Advanced -> Turn off Hardware acceleration.
+If your discord is lagy keep it on
+
+Go to Chrome -> Settings -> System -> Turn off Conitue running background apps when...

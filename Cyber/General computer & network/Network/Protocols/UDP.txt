@@ -1,0 +1,4 @@
+UDP - forth layer
+simillar to TCP but does nothing with error checking
+it doesnt has keep alive, handshake, seq
+

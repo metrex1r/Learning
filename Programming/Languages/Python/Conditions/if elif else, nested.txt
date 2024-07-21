@@ -1,0 +1,52 @@
+if(condition): #if condition is true, run this code
+	CODE HERE
+
+elif(ANOTHER condtion): #if condition is true, run this code
+	CODE HERE
+
+else:  #if none is true, run this code
+	CODE HERE
+
+
+Example
+
+weather = input("Enter your name: ")
+if(weather == "clear"):
+	print("Good to hear! The weather is clear.")
+
+elif(weather == "sunny"):
+	print("its sunny! Wear shorts and T shirts")
+
+else:
+	print("I dont know this condition!, try asking a friend.")
+
+
+
+#You don't have to use elif or else, its an option, a code can could look
+like this.
+
+if(condition): #if condition is true, run this code
+	CODE HERE
+
+else(ANOTHER condtion): #if condition is true, run this code
+	CODE HERE
+
+
+#You can also use elif as many times as you need.
+
+
+
+
+Nested if - אם מכונן
+If inside of another if
+
+example
+if(age > 18):
+	if(gender == male):
+		print("Welcome in! No female allowed")
+
+
+
+we can use if on a boolean without typing == true, for example
+if rain:
+	print("Don't forget your umbrella")

@@ -1,0 +1,4 @@
+As we turn on the pc, some programs starts to run.(start up)
+The values of the programs that needs to start are saved in the regitry.'
+
+Open run and type "autoruns".

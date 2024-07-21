@@ -1,0 +1,20 @@
+for X in VARIABLE:
+	CODE HERE
+
+this code will run the amount of numbers that in the same variables
+For example
+
+word = "school"
+for letter in word:
+	print (letter)\n
+
+Output:
+s
+c
+h
+o
+o
+l
+
+
+The X doesn't matter, you can call it whatever.

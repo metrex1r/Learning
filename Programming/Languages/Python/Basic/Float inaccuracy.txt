@@ -1,0 +1,12 @@
+Why isnt Python accurate when using float?
+If we try to add 1.23 to 2.80, We get 4.0299999999
+Instead of 4.03. Why?
+As mentioned Python was wrote in C.
+C uses a limited number of bits.
+So how do we fix that?, 2 options.
+
+divide by 100 (use int instead of float)
+(123 + 280) / 100
+
+Round(1.23 + 2.80, 2) - This function will round the first 
+input, starting from the second input number after the dot.

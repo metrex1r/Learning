@@ -1,0 +1,10 @@
+Cyber - Computer related or computer network related
+
+Website - Web application installed on a server
+
+Server - Computer, with certain application that accessible from the internet.
+
+Web server - Application that specified a location in your files and allows anyone on the internet access it.
+	Located on the server.
+
+Database - Contains tables that store certain information.

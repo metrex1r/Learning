@@ -1,0 +1,52 @@
+Python is an high level programming language, Python is made from C.
+Every python program end with .py
+# is used in python for comments.
+
+
+print(?) - Print the variable on the screen
+
+Create variable
+
+num = 5 #Create an integer
+message = "hey" #Create a string
+num = 3 #Change the variable value
+rain = True #Boolean always has a large letter
+
+Variable's name cant start with a number,  have spaces
+or contain special character(?!@#$%).
+
+\n is used to start a new line
+
+
+
+str() - Converts a variable to string. #We can do the same with int or float.
+	StringNumber = str(29)
+
+
+type() - This functions returns the type of the given variable.
+	type(StringNumber)
+
+
+name = input("Name:") - the input function will print whatever,
+is between the (). The user will see it and enter an input.
+The input will be save in the variable name.
+
+If we want to get an integer input, we will have to convert it
+wheels = int(input("enter amount of wheels:"))
+
+
+
+number = range(start,end,jumps)
+
+number = range(1,10,2)
+for i in number:
+    print (i)
+
+OUTPUT:
+1
+3
+5
+7
+9
+
+This tool is used to get numbers in certain range

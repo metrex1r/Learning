@@ -1,0 +1,46 @@
+Set power plan high performance.
+Search on windows bar, Power plan.
+
+Disable startup apps.
+Search on windows bar, Startup apps.
+
+Decide core isolation
+Search on windows bar, Core isolation.
+
+
+Open run and search "WSReset.exe"
+
+Right click desktop -> Personalize -> Colors -> Turn off transparency effects
+
+Clear your memory using ISLC(Intelligent standby list cleaner), Download online.
+Set "The list size at least" box on 1024Mb,
+Set "Free memory is lower than" on half of your total system memory showing at top.
+Check the custom time resulation box and set the wanted time resulation to 0.05.
+Click Purge Standby list and click start
+Do that everytime your'e gaming and leave it at the background.
+
+Open run and delete everything from:
+softwaredistribution
+prefetch
+temp
+%temp%
+
+Search for "Disk Cleanup" in windows search bar
+
+System configuration
+Alot of service you might want to disable for example:
+SysMain - Preload frequently accessed files
+Windows error reporting service - sends error report to microsoft
+Connected User Experiences and Telemetry (DiagTrack)- sends diagnostic and usage data to microsoft.
+Windows Push Notifications User Service (WpnUserService) - Windows push notification from windows store app.
+Windows Font Cache Service
+any bluetooth services(if you dont use bluetooth)
+Distributed Link Tracking Client - prevent maintain links to files that have been moved.
+fax - if you dont use it
+Windows Management Instrumentation (WMI) - prevent remote managment using WMI
+parental control - if you dont use it.
+IP helper - if you dont use IPV6 or required related services.
+Function Discovery Resource Publication - prevent your PC from advertising itself on the network for discovery.
+Telephony - if you dont use dial-up
+
+ALL OF THOSE YOU MIGHT CAN DISABLE, IT WILL BOOST YOUR PC PERFORMANCE AND SECURITY.

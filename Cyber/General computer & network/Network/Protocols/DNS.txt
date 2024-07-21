@@ -1,0 +1,7 @@
+DNS(Domain name server/system) - like the internet's address book, 
+translating domain names into IP addresses so devices can find each other online.
+It converts domain name to IP address.
+The DNS protocol run on a server, that we connect to using our wifi adapter.
+
+Example
+Firefox -> Youtube.com -> DNS -> XXX.XXX.XXX.XXX -> Server

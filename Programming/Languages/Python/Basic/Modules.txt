@@ -1,0 +1,19 @@
+Modules are sets of functions that we can add to our own code.
+Before using a module, we have to import it.
+import MODULENAME  #Generic import
+
+For example
+import random
+
+Sometimes instead of importing the whole module, we only want a specific function.
+In that case, we can use 
+from random import FUNCTION'SNAME #Function inport
+from random import randint
+
+Instead of each time typing MODULENAME.FUNCTIONNAME, we can use universal import
+from MODULENAME import *
+
+
+
+Generic Import (import module)Use when you need access to multiple components of a module or when the module name itself is descriptive enough.
+Universal Import (from module import function) Use when you only need one or a few specific functions, classes, or constants from a module to enhance code clarity and avoid namespace pollution.

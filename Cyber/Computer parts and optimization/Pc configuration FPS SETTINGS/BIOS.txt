@@ -1,0 +1,12 @@
+In every BIOS the settings are diffrent but the purpose is the same,
+Look for the following settings.
+
+CPU Tunning: all core overclocking
+
+RAM profiles: XMP,D.O.C.P or E.X.P.O
+
+Manual RAM timings
+
+Infilinty fabric(FCLK): Set to half of ram speed
+
+Setup resizeable bar/rebar

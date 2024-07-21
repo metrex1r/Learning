@@ -1,0 +1,13 @@
+Hub - רכזת
+Barely in use anymore, old component, Doesnt really do anything beside copy paste.
+The hub is connected for x amount of computers.
+Getting a msg from computer y and copy the msg and pasting it to computers a,b,c(all computers).
+It is located on the physical level, doesnt has an IP or know addresses.
+Also doesnt edit any packets.	
+
+The problem with the hub is lack of privacy, it is sending the msg to everyone
+(unless its encrypted). Another problem that is if 2 devices sends a msg at the same
+time, both of the msgs will get scrambled and be sent together.
+
+Colition space - the space that the colition can happened and the msg will get scrambled.
+Broadcast space - the space that the broadcast is being transmitted from.

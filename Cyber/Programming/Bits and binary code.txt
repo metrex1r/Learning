@@ -1,0 +1,137 @@
+counting and machine info presentation 
+
+
+binary code - our processor uses only 0 and 1 on/off
+1 - on
+0 - off
+*binary code rtl
+
+bit - smallest unit either 0/1
+byte - 8 bit
+
+byte has 2^8 possbilities - 256 diffrent bytes are possible
+2^8 because there is 2 options for every bit and there is 8 bits
+so 2options^8bits
+
+
+Asembly - most close programming language to machine language.
+Asembly is low level language -  closer to machine code and hardware, offering 
+more direct control.
+
+High level language - closer to human language, less direct control.
+
+Base 2(Binary) - uses 0, 1
+Base 10(Decimal) - uses 0-9
+Base 8(Octal) - uses 0-7
+Base 16(Hexademical)
+0 - 9
+A - F
+A: 10, B: 11, C: 12, D: 13, E: 14, F: 15
+
+
+Our computer only knows how to read Binary code.
+The reason we have more bases and not only Binary is to save space, because there
+are more options, the code is shorter. for example to write 5000
+Binary - 1001110001000
+Hex - 1388
+
+Sizes
+Byte - 8bit
+1Kilobit(KB) - 1000bit/2^10(1024bit)
+1Megabits(MB) - 1,000,000/2^2 
+1Gigabits(GB) - 1,000,000,000/2^3
+
+
+
+
+Binary conversion to Decimal
+8 digits, 0 - 7
+if the digit in x^2 position is 1(on) so you add the x^2
+for example:
+
+position: 2^0  2^1  2^2  2^3  2^4  2^5  2^6  2^7
+total      1    2    4    8   16   32   64   128
+
+Code: 000010011
+The indexes that are on are 0,1,4
+So: 1 + 2 + 16 = 19(Decimal)
+19(Decimal) = 10011(Binary)
+
+
+
+
+How to do the opposite action?
+calculate       remains
+19:2 = 9           1
+9:2 = 4            1
+4:2  = 2           0
+2:2 = 1            0
+1:2 = 0            1
+
+so we copy the remains down to up which means
+10011
+*if the code starts with 0 so it wont be written, you could just add it
+
+
+Binary to demical number #2
+number example 479
+
+10^index_first_n(0) * first_n(9) + 10^index_second_n(1) * second_n(7) * 10^index_third_n(2) * third_n(4)
+10^0*9 + 10^1*7 + 10^2*4 = 479
+
+Summing binary numbers
+Sum upp the two demical numbers
+
+Neg nums - שיטת הסימן
+The last bit, the one on the left always represent if the num is neg or not.
+If the num is 1 the value is negative, else if its 0 then the value is positive.
+for example
+1111 = -7
+0111 = 7
+
+Neg nums - שיטת המשלים לאחד 
+We take the binary number for example
+10010101
+the bit on left is 1 so the num is negative
+and then we take the ooposite of each num 1 = 0, 0 = 1
+so we have
+1101010 which is equall to 106
+so our nums is -106
+
+שיטת המשלים ל2 is taking the same num and adding 1 so it would be -107
+
+
+Hexademical(16) to demical(10)
+For example : 4F
+F index - 0
+4 index - 1
+
+so we do
+16^0 = 1
+16^1 = 16
+
+and then we multply each of the results with each of their index number:
+1 x F(15) = 15
+16 x 4 = 64
+
+64 + 15 = 79
+
+
+*the bits are sent the processor
+
+
+Binary to hexdemical(16)
+Every 4 bits, means one letter in the hexdemical
+So for example the number is 0011
+
+8421
+0011
+
+we put above each number 2^i(i = index)
+so the numbers are always 8421
+
+so we have 1(on) where the 2,1 is located so its equall to 3
+and thats our answer.
+
+
+

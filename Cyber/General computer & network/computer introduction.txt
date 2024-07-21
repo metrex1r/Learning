@@ -1,0 +1,77 @@
+ OS - operating system
+OS is a program that is essential for the computer.
+The OS manages the hardware and helps use it efficiently.
+It's possible to use a computer without an OS.
+For example, if we want a device that will only do specific things that don't necessarily 
+require an OS, like a remote. If we would also use an OS, this would be a waste of
+resources because as we said OS is a program and it is using our resources as any other program does.
+
+
+Drivers - translate electric signals from hardware and allow communication between parts.
+
+API - makes it possible for different programs to communicate. 
+The API's role is to show what you can do.
+It's similar to a driver but used for programs and applications.
+It's the side that "talks" to the clients and provides answers.
+
+Kernel - The main component in the OS, his role is to make sure that the OS working properly.
+It is the side that "talks" to the hardware and gets answers
+The Kernel is responsible for managing files, security, device management, networking, etc.
+*The OS sits between the Kernel and API.
+
+OS examples:
+Windows - most popular
+DOS - Old OS, you had to directly write what you wanted to do
+Linux - Open source
+Unix
+Mac OS
+
+
+Applications - programs that will do a specific thing, as the code.
+
+Process - every application contains at least one or more processes.
+For example in Chrome, for every tab you open, it's another process.
+Has a sub-process that runs the process.
+Resources:
+Code to run.
+Memory
+Priority
+Thread
+PID - a way for the OS to identify the process.
+
+Services -  also process but the difference is the role they have.
+The service is a process that serves other processes.
+
+Threads(sub-process) - the part that runs the code.
+Every thread has a role, a duty that has to be fulfilled.
+The advantage is that if one thread gets stuck, only this thread gets stuck and not the whole program.
+This is called multi-thread - the ability to run threads simultaneously.
+Thread can share information with other Threads
+
+ Application
+      |
+   Process -> Services
+      |          |
+   Threads    Threads
+
+The process is in the RAM so it's active and disappears when we turn off the computer.
+The application is static which is not active and doesn't disappear when we turn off the computer.
+
+
+In process memory, we have 5 types of memory.
+The process contains the code segment, the code that the process is supposed to run.
+
+BSS/Data segment - the global and static variables of the code are being saved.
+Static/Global variables are variables that are identical for all the threads.
+Data segment - the variables are different from 0, unlike BSS where all variables are equal to 0 or nothing.
+
+Stack(מחסנית) - stores the temporary variables. Being directly managed by the CPU. Works by LIFO(last in, first out). 
+The advantage is that it is directly managed by the CPU, which doesn't have to manage it or provide memory manually.
+
+Heap - an area that doesn't automatically get managed for us, we manage it.
+It's larger, if we can't fill this area we have a memory leak - the provided memory won't be used for anything.
+
+
+We use heap instead of stack cause on heap we can save more complex data structures.
+The stack is very limited. We can direct a stack variable to a heap.
+Before we dismiss the stack that is directed to the Heap, we have to dismiss the heap, elsewhere it will waste memory.

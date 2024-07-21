@@ -1,0 +1,20 @@
+def function_name():
+	CODE HERE
+
+def is used to create a function, and if we want to run it, we will have to use
+the function's name followed by ()
+function_name()
+
+A function could also take a variable as an input, for example
+def function_name(num):
+	CODE HERE
+
+This will allow us to use the variable inside the function.
+We could also use return in the end of the function.
+return(VALUE/VARIABLE)
+
+Simple example
+def add(num,num1):
+	return(num + num1)
+add(5,2)
+OUTPUT:7

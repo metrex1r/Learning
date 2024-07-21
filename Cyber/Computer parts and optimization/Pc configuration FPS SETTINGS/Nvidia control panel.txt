@@ -1,0 +1,61 @@
+
+Right click desktop -> Nvidia control panel -> Ajust image settings with preview -> Use the advanced 3D image settings.
+Manage 3D settings -> Global settings -> Search and set the next settings:
+
+
+
+Image scalling - boosting your frame rates by rendering games at a lower resolution, then upscaling them to match your monitor's native res
+Use about 30% if using, turn on overlay resulation.
+
+Ambient occlusion: Off.
+
+Anisotropic filtering: Off
+
+Antialasing - Mode:
+Best FPS - Off
+Best visuals - App control
+
+Antialasing - Transparency: Off
+
+Background apps framerate : Optional prefered.
+
+CUDA - GPU's: all
+
+DSR - factors: Off
+Can be great if used correctly check it out
+
+Low latency mode: On
+
+Max frame rate : Optional
+
+Monitor technology: Depends on your monitor, G-SYNC is the best probably.
+
+Multi frame sampled AA (MFAA) : Off
+
+Power managment mode: Perfer max
+
+Preferred fresh rate: Highest avilable
+
+Shader cache size: 10 GB
+
+Texture filtering - Anisotropic sample optimiztion : on
+
+Texture filtering - Negative LOD bias: Allow
+
+Texture filtering - Quality: High performance
+
+Texture Trilnear optimization : On
+
+Threaded optimzation: Auto
+
+Triple buffering: off
+
+Verical sync: off
+
+
+Display -> Conifgure Surround, PhysX
+Set processor to GPU
+
+
+
+

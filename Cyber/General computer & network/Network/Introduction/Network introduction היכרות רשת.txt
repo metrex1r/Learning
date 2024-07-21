@@ -1,0 +1,64 @@
+Server-client means that there is a computer that has the information we want.
+The client is the computer that enters the servers and asks for the information.
+
+MAC address - a physical address that can't be changed, it's being etched on the device.
+Example: 00:2a:69:0B:37:8k - hexadecimal. The first three parts tell us who made the device.
+Every Mac address is unique and there could be only one of each.
+You could only know the MAC of people in the same network as you
+
+ARP - allows us to ask the internet who has a specific MAC.
+
+SubNet -a network inside a network, make networks more efficient.
+Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routers to reach its destination.
+Subnet mask - is the ips that in the same subnet.
+
+IP address has 4 parts and has only numbers 0.0.0.0 - 255.255.255.255
+IP unlike MAC can be changed and used to send and receive data.
+For every wifi you use your private IP is different, it indicates where are you in the wifi.
+
+Why do we need MAC and IP both?
+We want to be precise and make sure that the right person receives the information.
+The MAC is to make sure it's the right person, and the IP is to find the person.
+
+All the people in the same router have different private IPs but when sending a request online,
+we use public IPs. all the members use the same IP in the router becasue there is a limited number of IPs (255^4)
+So public ip is used to communicate with other networks and private ip is used to communicate in the same network.
+
+Network types
+
+WAN (wide area network) - connects different LANs
+LAN - a local network that usually is inside one building and connects devices together.
+
+IPv4 - regular IP with 4 parts.
+IPv6 - it's an IP with 6 parts instead of 4 to allow us to have more IP possibilities.
+
+there are 3 ranges for private IP
+10.255.255.255 - 10.0.0.0
+172.31.255.255 - 172.16.0.0
+192.168.255.255 - 192.168.0.0
+
+If we want to communicate, we have to know our IP address, dest address, and have a network connection.
+
+
+Ping - measuring how long it takes for a packet to be sent and get a reply.
+
+packet - contain header and payload. we send small packets because:
+It is faster to transmit
+if a part has an error, we don't have to send the whole thing again
+they can take different paths and arrive simutieounesly
+
+
+Model 5 layers - OSI model
+
+5.application - what do i want to move?
+4.transport - communication inside the target, makes sure the incomed data is proper.
+3.network - decide where to send the data next, how to getthere
+2.data link - transporting data between close target
+1.physical -  trasporting bits thru electric signals
+*If we want to send a message, we have to use the forth layer - transport.
+
+
+Session: Tracks user interactions during a browsing session, stored temporarily on the server.
+Cookies: Small data pieces stored in a user's browser to remember preferences and login information.
+Local Storage: Client-side storage in browsers for persistently storing data beyond a single session.
+Cache: Temporarily stores frequently accessed data to speed up website loading times and reduce server load.

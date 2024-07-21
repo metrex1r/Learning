@@ -1,0 +1,4 @@
+This company developed tools that allows us to monitor the OS.
+They made partner ship with microsoft.
+
+Every app in this folder is SysInternal.

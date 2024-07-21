@@ -1,0 +1,24 @@
+How to print a part of a string?
+Example:
+Message = "Just do it!"
+#Space is a character too!
+print(to_slice[10]) #Prints the tenth character
+print(to_slice[5:7]) #Prints between the 5th to the seventh character
+print(to_slice[:4]) #Prints between the start to the fourth character
+
+word = "abc"
+
+word.upper() - converts the word to uppercase
+word.lower() - converts the word to lowercase
+
+word.islower() - return true/false if its all lower
+word.isupper() - return true/false if its all upper
+
+.isalpha() - return true/false if it contains only letters
+.isalnum() - return true/false if it contains only letters and numbers
+.isdemical() - return true/false if it contains only numbers
+.isspace() - return true/false if it contains only spaces
+.istitle() - return true/false if every word start with an uppercase
+
+.startwith() - return true/false if the string start with certain string
+.endwith() - return true/false if the string end with certain string

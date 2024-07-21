@@ -1,0 +1,17 @@
+ARP - Address Resolution Protocol, used in computer networks(Specificly IP). operates in the Layer 2 of the OSI model.
+The main function of ARP is to map an IP address to a physical MAC address on a local network.
+
+Here's how ARP works:
+
+Address Resolution - When a device in a LAN wants to communicate, it first checks his dest ARP cache.
+If the MAC address for the dest IP address is not found in the cache, the device initiates an ARP request.
+
+ARP Request - The device broadcasts an ARP request packet , asking "Who has IP address X?".
+ARP Reply - The device with the corresponding IP address sends an ARP reply packet containing its MAC address to the requester.
+ARP Cache Update - Upon receiving the ARP reply, the requesting device updates its ARP cache with the IP-to-MAC address mapping.
+Data Transmission - With the MAC address of the destination known, the original device can now encapsulate its data packets with the MAC address of the recipient and send them.
+
+ARP operates within a single broadcast domain. Routers are responsible for ARP translation between different networks.
+
+While ARP is a simple and efficient protocol, it's susceptible to various security vulnerabilities, such as ARP spoofing. 
+To mitigate these risks, techniques like ARP cache poisoning detection and ARP inspection are employed in modern networks.
